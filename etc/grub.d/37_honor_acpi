@@ -1,0 +1,4 @@
+#!/usr/bin/sh
+exec tail -n +3 $0
+# Update Honor ACPI Table
+acpi /boot/honor-acpi/dsdt.aml
